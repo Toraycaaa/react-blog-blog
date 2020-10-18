@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "start": "next start -p $PORT",
-    "build": "next build && PORT=3000 npm start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
