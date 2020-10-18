@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import Head from 'next/head'
 // 引入跳转链接
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import {Button, Col, Row, List, Icon} from 'antd'
 import Header from '../components/Header'
