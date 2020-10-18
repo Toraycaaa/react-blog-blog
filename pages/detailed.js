@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Head from 'next/Head'
+import Head from 'next/head'
 
 import {Button, Col, Row, Breadcrumb, Affix} from 'antd'
 import Header from '../components/Header'

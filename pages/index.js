@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import axios from 'axios'
 
 
-import Head from 'next/Head'
+import Head from 'next/head'
 // 引入跳转链接
 import Link from 'next/Link'
 
