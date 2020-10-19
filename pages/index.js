@@ -129,7 +129,7 @@ Home.getInitialProps = async () => {
       }
     )
 
-  })
+  }).catch(() => {})
 
   return await promise
 }

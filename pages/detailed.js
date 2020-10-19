@@ -162,7 +162,7 @@ Detailed.getInitialProps = async (context) => {
       }
     )
 
-  })
+  }).catch(() => {});
 
   return await promise
 }
