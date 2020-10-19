@@ -160,10 +160,9 @@ Detailed.getInitialProps = async (context) => {
         console.log('------->',res.data)
         resolve(res.data.data[0])
       }
-    )
+    ).catch(() => {});
 
-  }).catch(() => {});
-
+  })
   return await promise
 }
 
