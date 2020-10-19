@@ -25,7 +25,7 @@ const Header=()=>{
 
         }
         // 执行方法
-        fetchData()
+        fetchData().catch(error => console.log(error.message));
     //渲染页面时执行一次
     },[])
     

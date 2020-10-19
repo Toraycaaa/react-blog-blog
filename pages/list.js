@@ -119,9 +119,9 @@ MyList.getInitialProps = async (context)=>{
         console.log(res.data)
         resolve(res.data)
       }
-    ).catch(() => {});
+    ).catch(error => console.log(error.message));
 
-  })
+  }).catch(error => console.log(error.message));
 
   return await promise
 }
